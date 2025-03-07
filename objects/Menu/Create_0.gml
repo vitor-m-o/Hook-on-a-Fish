@@ -1,0 +1,1 @@
+audio_play_sound(MenuMusic, 0.5, true);

@@ -34,6 +34,8 @@
   },
   "name":"Hook on a Fish",
   "resources":[
+    {"id":{"name":"BlackCurtain","path":"objects/BlackCurtain/BlackCurtain.yy",},},
+    {"id":{"name":"DevLogo","path":"objects/DevLogo/DevLogo.yy",},},
     {"id":{"name":"KevinObject","path":"objects/KevinObject/KevinObject.yy",},},
     {"id":{"name":"LeaveButton","path":"objects/LeaveButton/LeaveButton.yy",},},
     {"id":{"name":"Menu","path":"objects/Menu/Menu.yy",},},
@@ -43,6 +45,9 @@
     {"id":{"name":"SettingsButton","path":"objects/SettingsButton/SettingsButton.yy",},},
     {"id":{"name":"RoomGame","path":"rooms/RoomGame/RoomGame.yy",},},
     {"id":{"name":"RoomMenu","path":"rooms/RoomMenu/RoomMenu.yy",},},
+    {"id":{"name":"MenuMusic","path":"sounds/MenuMusic/MenuMusic.yy",},},
+    {"id":{"name":"BlackCurtainSprite","path":"sprites/BlackCurtainSprite/BlackCurtainSprite.yy",},},
+    {"id":{"name":"DevLogoSprite","path":"sprites/DevLogoSprite/DevLogoSprite.yy",},},
     {"id":{"name":"KevinMenuSprite","path":"sprites/KevinMenuSprite/KevinMenuSprite.yy",},},
     {"id":{"name":"LeaveSprite","path":"sprites/LeaveSprite/LeaveSprite.yy",},},
     {"id":{"name":"MenuBackground","path":"sprites/MenuBackground/MenuBackground.yy",},},
