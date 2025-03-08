@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"BackButton","order":9,"path":"objects/BackButton/BackButton.yy",},
     {"name":"BlackCurtain","order":8,"path":"objects/BlackCurtain/BlackCurtain.yy",},
     {"name":"DevLogo","order":7,"path":"objects/DevLogo/DevLogo.yy",},
     {"name":"KevinObject","order":4,"path":"objects/KevinObject/KevinObject.yy",},
@@ -26,6 +27,7 @@
     {"name":"PlayButton","order":1,"path":"objects/PlayButton/PlayButton.yy",},
     {"name":"SettingsButton","order":2,"path":"objects/SettingsButton/SettingsButton.yy",},
     {"name":"RoomGame","order":1,"path":"rooms/RoomGame/RoomGame.yy",},
+    {"name":"BackSprite","order":14,"path":"sprites/BackSprite/BackSprite.yy",},
     {"name":"BlackCurtainSprite","order":13,"path":"sprites/BlackCurtainSprite/BlackCurtainSprite.yy",},
     {"name":"DevLogoSprite","order":12,"path":"sprites/DevLogoSprite/DevLogoSprite.yy",},
     {"name":"KevinMenuSprite","order":5,"path":"sprites/KevinMenuSprite/KevinMenuSprite.yy",},
