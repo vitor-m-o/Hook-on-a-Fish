@@ -6,7 +6,7 @@
 # Language:
 - GML (Game Maker 2 Programming Language)
 
-# Autor:
+# Authors:
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/110566021?v=4" width=115><br><sub>Vítor Maziero Oliveira</sub>](https://github.com/vitor-m-o)
 
