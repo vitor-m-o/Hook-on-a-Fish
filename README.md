@@ -4,7 +4,7 @@
 -  Game project
 
 # Language:
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gml/gml-original.svg" width="115" height="115"/>
+- GML (Game Maker 2 Programming Language)
 
 # Autor:
 
