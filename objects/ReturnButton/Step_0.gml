@@ -1,4 +1,4 @@
-if (global.leaveInvisible)
+if (global.returnInvisible)
 {
 	if (current_time - last_time >= 100) 
 	{
@@ -9,9 +9,17 @@ if (global.leaveInvisible)
     
 		last_time = current_time;  // Atualiza o tempo para o próximo comando
 	}
+	if (y > -320)
+	{
+		y = y - 10;
+	}
 }
 else
 {
+	if (y < 450)
+	{
+		y = y + 10;
+	}
 	// Pequena rotação para dar naturalidade
 	image_angle = sin(current_time * 0.003) * 2;
 	
@@ -23,13 +31,5 @@ else
 		}
     
 		last_time = current_time;  // Atualiza o tempo para o próximo comando
-	}
-}
-
-if (end_game)
-{
-	if (current_time - last_time_end >= 5000)
-	{
-		game_end();
 	}
 }

@@ -43,3 +43,26 @@ else if (global.pageSettings == false)
 	}
 	global.backInvisible = true;
 }
+
+if (global.pause == 1)
+{
+	global.pageInvisible = false;
+	
+	if (y < 0)
+	{
+		y = y + z;
+	}
+}
+else if (global.pause == 2)
+{
+	global.pageInvisible = true;
+	
+	if (y > -670)
+	{
+		y = y - z;
+	}
+}
+else if (global.pause == 3)
+{
+	y = -670;
+}

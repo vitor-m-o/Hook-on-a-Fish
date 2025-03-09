@@ -16,10 +16,12 @@
     {"name":"inst_1AF320AE","path":"rooms/RoomMenu/RoomMenu.yy",},
     {"name":"inst_73912B5","path":"rooms/RoomMenu/RoomMenu.yy",},
     {"name":"inst_6AE70C9D","path":"rooms/RoomMenu/RoomMenu.yy",},
+    {"name":"inst_72BCEC24","path":"rooms/RoomMenu/RoomMenu.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_72BCEC24","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72BCEC24","objectId":{"name":"Secret","path":"objects/Secret/Secret.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.035704,"scaleY":0.9977011,"x":-17.0,"y":-65.99997,},
         {"$GMRInstance":"v1","%Name":"inst_73912B5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73912B5","objectId":{"name":"BlackCurtain","path":"objects/BlackCurtain/BlackCurtain.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":20.0,"scaleY":11.5,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_1AF320AE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1AF320AE","objectId":{"name":"DevLogo","path":"objects/DevLogo/DevLogo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":640.0,"y":352.0,},
         {"$GMRInstance":"v1","%Name":"inst_46626278","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46626278","objectId":{"name":"PageObject","path":"objects/PageObject/PageObject.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.0,"x":1240.0,"y":0.0,},
