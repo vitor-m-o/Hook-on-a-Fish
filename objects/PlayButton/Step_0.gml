@@ -1,5 +1,10 @@
 if (global.playInvisible)
 {
+	if (x < 1700)
+	{
+		x = x + 10;
+	}
+	
 	if (current_time - last_time >= 100) 
 	{
 		if (image_alpha >= 0)
@@ -9,9 +14,16 @@ if (global.playInvisible)
     
 	    last_time = current_time;  // Atualiza o tempo para o próximo comando
 	}
+	clickable = false;
 }
 else
 {
+	if (x > 1156)
+	{
+		x = x - 10;
+	}
+	
+	clickable = true;
 	// Movimento oscilante (seno para ir para os lados)
 	//x += sin(current_time * 0.005) * 2;
 

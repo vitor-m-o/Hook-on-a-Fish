@@ -1,5 +1,11 @@
 if (global.leaveInvisible)
 {
+	if (x < 1700)
+	{
+		x = x + 10;
+	}
+	
+	clickable = false;
 	if (current_time - last_time >= 100) 
 	{
 		if (image_alpha > 0)
@@ -12,6 +18,12 @@ if (global.leaveInvisible)
 }
 else
 {
+	if (x > 1192)
+	{
+		x = x - 10;
+	}
+	
+	clickable = true;
 	// Pequena rotação para dar naturalidade
 	image_angle = sin(current_time * 0.003) * 2;
 	

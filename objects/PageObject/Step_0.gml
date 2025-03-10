@@ -1,5 +1,10 @@
 if (global.pageInvisible)
 {
+	if (x < 1771)
+	{
+		x = x + 10;
+	}
+	
 	if (current_time - last_time >= 100) 
 	{
 		if (image_alpha >= 0)
@@ -12,6 +17,10 @@ if (global.pageInvisible)
 }
 else
 {
+	if (x > 1240)
+	{
+		x = x - 10;
+	}
 	// Movimento oscilante (seno para ir para os lados)
 	//x += sin(current_time * 0.005) * 2;
 
@@ -26,43 +35,4 @@ else
     
 	    last_time = current_time;  // Atualiza o tempo para o próximo comando
 	}
-}
-
-if (global.pageSettings)
-{
-	if (x > 840)
-	{
-		x = x - z;
-	}
-}
-else if (global.pageSettings == false)
-{
-	if (x < 1240)
-	{
-		x = x + z;
-	}
-	global.backInvisible = true;
-}
-
-if (global.pause == 1)
-{
-	global.pageInvisible = false;
-	
-	if (y < 0)
-	{
-		y = y + z;
-	}
-}
-else if (global.pause == 2)
-{
-	global.pageInvisible = true;
-	
-	if (y > -670)
-	{
-		y = y - z;
-	}
-}
-else if (global.pause == 3)
-{
-	y = -670;
 }
