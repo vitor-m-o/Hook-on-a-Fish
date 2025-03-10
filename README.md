@@ -1,7 +1,7 @@
 # Hook-on-a-Fish
  
 # Project description:
--  Game project
+-  Fishing Simulator Game
 
 # Language:
 - GML (Game Maker 2 Programming Language)
